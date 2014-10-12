@@ -11,4 +11,7 @@ Q 3. Describe the differences between forks, clones, and branches. When would yo
   Q 4. What is the benefit of having a copy of the last known state of the remote stored locally?
     A. The benefit of having a copy of last remote repo state is whenever I am offline or traveling or do not have internet access I can still work on it.
 
+Q 5. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+  A. For any project that involves multiple people to work Github is an excellent platform to host your repo and work collaboratively. Without Git and GitHub, using Google and Dropbox might work upto some extent such as small projects involving single file but it definitely gets harder when you want to work on multiple files and make real time changes. The advantage of using Google Docs or Dropbox is you do not have to learn Git or VCS command but it will only take you so far. If somebody wants to work on multiple projects including contributing to open source ones then Github is the thing to be learned as most open source projects are hosted on GitHub. Also software companies where several programmers work from different locations host their proprietory codes on GitHub as private repo. So it is better to learn and use Github which I believe will be useful in long term.
+
 
