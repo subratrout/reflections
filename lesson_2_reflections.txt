@@ -1,8 +1,26 @@
-Q.1. What happens when you initialize a repository? Why do you need to do it?
+Q 1. What happens when you initialize a repository? Why do you need to do it?
 
-A: When I initialize the repository a .git folder is created which holds the snapshots of all changes commited to my files in the folder.
+ A. When I initialize the repository a .git folder is created by Git which holds the snapshots of all changes commited to my files in the folder. If I do not create it I will not be able to keep track of all changes according to my commits.
 
 
 Q 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-A- staging area is the intermediate area between working directory and repository. It is valuable that you can make changes before commiting when you are in staging area.
+ A.staging area is the intermediate area between working directory and repository. Git holds all your changes in a intermediate state before commiting to a repo. By doing this one can modify or create file and add changes one by one and then commiting all them at the same time. It is helpful that I can track all related changes in one commit.
+
+Q 3. How can you use the staging area to make sure you have one commit per logical change?
+  A. I can use git status to see what are the changes in files that are not added to staging area and add them to staging area in a single commit making sure all changes involve a single logical change.
+
+
+Q 4. When would you want to create a new branch, and when would you not?
+  A. When I would like to develop a new feature to an application I can create the branch without touching or modifying the master version. It is helpful in a sense that if I decide to abandon the feature or could not fix a bug then I can comeback to master version to work on it without messing up the application. It also helpe when you are working with other programmers on a larger project where you do not want to add a new feature or change the program to the master version making every one's work stuck on the path.
+
+Q 5. How do the diagrams help you visualize the branch structure?
+  A. When an application is developed by multiple developer with several commits and branches, by visualizing the diagrams it helps to understand the entire history of the applications including changes, commits, merge of branches etc.
+
+Q 6. What is the result of merging two branches together?  Why do we represent it in the diagram the way we do?
+  A. WHen two branches merge they create a new commit incorporting all changes in each branch provided the changes do not create conflict. This conflict can arise by introducing changes into the same line of the file made by both parent commits. The diagram makes it clear to visualize the two parent commits showing their previous commits and merged point thus helping to visualize all changes which is easy to understand.
+
+
+Q 7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+  A. I do not see any pros on Git's automatic merge but the cons of automatic merging is high. Several possible scenario can arise due to automatic merging. In one case if one commit of a branch makes changes to a function where other branch deletes it then the merged code could result in a broken application. So it is necessary to analyze both changes and do a manual merging by looking through each changes that requires human ingenuity.
+
