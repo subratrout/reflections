@@ -6,3 +6,9 @@ Q 2. Why might you want to always pull changes manually rather than having Git a
 
 Q 3. Describe the differences between forks, clones, and branches. When would you use one instead of another?
   A. Branching in Git is creating a branch of a repo where you can introduce new feature without affecting the master branch. In that way you can comeback to master branch whenever you would like to work on. Cloning is copying the entire repo. It can be either from remote to local machine or from one location to different location of the same local machine. Forking is cloning a repo on GitHub where you clone a repo to your account on Github site which later you can clone onto your local machine. In this case you need original creator's consent to add your changes into origin repo. When I want to work on other people's project or any oepn source project I can fork the master repository to my Github account and then clone to my local machine and can start working on it.
+
+
+  Q 4. What is the benefit of having a copy of the last known state of the remote stored locally?
+    A. The benefit of having a copy of last remote repo state is whenever I am offline or traveling or do not have internet access I can still work on it.
+
+
