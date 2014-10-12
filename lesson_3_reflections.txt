@@ -1,2 +1,6 @@
 Q 1. When would you want to use a remote repository rather than keeping all your work local?
-  A.
+  A. When I am developing an application with other developers it is more convenient to share my code with them when hosted as a remote repository. Also I can invite somebody to Github to review my code or opensource it where other developers can contribute freely to the repo. Another advantage is if I somehow delete my local folder the I can always go back to remote repo and access all my work.
+
+Q 2. Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+  A. If Git automatically pull any changes then I have no way of knowing where I am and if there are any bugs or changes introduced to the application. So it is always good idea to pull changes manually so that I am aware what are the changes I am introducing to my local repo in current pull.
+
